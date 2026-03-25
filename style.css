@@ -1,75 +1,45 @@
-css body {
+body {
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
-    margin: 0;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    color:  white;
+    padding: 10px;
+    display: block;
+}
+h1 {
+color:  steelblue;
+
+main img {
+    font-size: 18px;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-decoration: ;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.hero {
-    background: lightblue;
-    padding: 50px;
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* why use rgba instead of hex here? */
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
-
-button {
-    padding: 10px 20px;
-    border: none;
-    background: black;
-    color: white;
+aside img {
+    width: 200px;
+    height: auto;
 }
-
-/* services*/
-.services {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.card {
-    background: #f4f4f4;
-    padding: 20px;
-    width: 30%;
-    text-align: center;
-}
-
-/* footer */
 footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    color: center;
 }
-
-css id="sm5b0x"
-
-button:hover {
-    background: blue;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-css id="0ydc7P"
-
-media (max-width: 600px) {
-    .services {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 100%;
-        margin-bottom: 10px;
